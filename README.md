@@ -24,4 +24,6 @@ learning_rate = 0.001
 embedding_dim = 300
 hidden_dim = 250
 n_layers = 2
-
+# NOTE
+The following project iterates over a large amount of data, and it's expected to take a number of hours to train, even on GPU.
+it took me around an hour to train the complete model.It is important to avoid wasting GPU time in Workspace projects that have GPU acceleration enabled. The benefits of GPU acceleration are most useful when evaluating deep learning models—especially during training. In most cases, you can build and test your model (including data pre-processing, defining model architecture, etc.) in CPU mode, then activate GPU mode to accelerate training.
